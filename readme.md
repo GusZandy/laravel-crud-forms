@@ -188,7 +188,7 @@ The views are built with bootstrap v.3 and also have css classes to support some
 It is also possible to publish the views, so you can change them anyway you need. To publish them, use the following artisan command:
 
 ```
-php artisan vendor:publish --provider=Achillesp\CrudForms\CrudFormsServiceProvider --tag=views
+php artisan vendor:publish --provider="Achillesp\CrudForms\CrudFormsServiceProvider" --tag=views
 ``` 
 
 ## License
